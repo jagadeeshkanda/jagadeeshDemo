@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="44950" started-at="2019-12-12T16:08:53Z" finished-at="2019-12-12T16:09:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="44950" started-at="2019-12-12T16:08:53Z" finished-at="2019-12-12T16:09:38Z">
+      <class name="Qaclickacadey.validation">
+        <test-method status="PASS" signature="basepagenavigation()[pri:0, instance:Qaclickacadey.validation@55f3ddb1]" name="basepagenavigation" duration-ms="44842" started-at="2019-12-12T16:08:53Z" finished-at="2019-12-12T16:09:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+      </class> <!-- Qaclickacadey.validation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
