@@ -25,7 +25,7 @@ public class validation extends Base {
 		Assert.assertEquals(gettile.gettitle().getText(), "FEATURED COURSES");
 		
 		
-		driver.close();
+		
 		
 	}
 

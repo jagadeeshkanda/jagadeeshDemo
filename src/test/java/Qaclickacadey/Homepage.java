@@ -35,8 +35,7 @@ public class Homepage extends Base {
     //System.out.println(password);
     login.Login().click();
 	
-    driver.close();
-	
+    
 	}
 @DataProvider
 public Object[][] getData() {

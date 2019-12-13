@@ -1,17 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="44950" started-at="2019-12-12T16:08:53Z" finished-at="2019-12-12T16:09:38Z">
+  <suite name="Suite" duration-ms="128098" started-at="2019-12-13T00:27:43Z" finished-at="2019-12-13T00:29:52Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="44950" started-at="2019-12-12T16:08:53Z" finished-at="2019-12-12T16:09:38Z">
+    <test name="Test" duration-ms="128098" started-at="2019-12-13T00:27:43Z" finished-at="2019-12-13T00:29:52Z">
       <class name="Qaclickacadey.validation">
-        <test-method status="PASS" signature="basepagenavigation()[pri:0, instance:Qaclickacadey.validation@55f3ddb1]" name="basepagenavigation" duration-ms="44842" started-at="2019-12-12T16:08:53Z" finished-at="2019-12-12T16:09:38Z">
+        <test-method status="PASS" signature="basepagenavigation()[pri:0, instance:Qaclickacadey.validation@123f1134]" name="basepagenavigation" duration-ms="25664" started-at="2019-12-13T00:27:44Z" finished-at="2019-12-13T00:28:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basepagenavigation -->
       </class> <!-- Qaclickacadey.validation -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="Qaclickacadey.Homepage">
+        <test-method status="PASS" signature="basepagenavigation(java.lang.String, java.lang.String)[pri:0, instance:Qaclickacadey.Homepage@7d68ef40]" name="basepagenavigation" duration-ms="38654" started-at="2019-12-13T00:28:10Z" data-provider="getData" finished-at="2019-12-13T00:28:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jagadeesh.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kpinku99%]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method status="PASS" signature="basepagenavigation(java.lang.String, java.lang.String)[pri:0, instance:Qaclickacadey.Homepage@7d68ef40]" name="basepagenavigation" duration-ms="37795" started-at="2019-12-13T00:28:50Z" data-provider="getData" finished-at="2019-12-13T00:29:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pinku.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kpinku99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+      </class> <!-- Qaclickacadey.Homepage -->
+      <class name="Qaclickacadey.validatebar">
+        <test-method status="PASS" signature="validationbar()[pri:0, instance:Qaclickacadey.validatebar@5b0abc94]" name="validationbar" duration-ms="22114" started-at="2019-12-13T00:29:29Z" finished-at="2019-12-13T00:29:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationbar -->
+      </class> <!-- Qaclickacadey.validatebar -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

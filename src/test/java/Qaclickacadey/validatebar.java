@@ -22,7 +22,7 @@ public class validatebar extends Base {
 	Loginpage LP=new Loginpage(driver);
 	Assert.assertTrue(LP.navigationbar().isDisplayed());
 	System.out.print(LP.navigationbar().getText());
-	driver.close();
+	
 
 	}
 }
